@@ -1,0 +1,75 @@
+import style from './Footer.module.css'; // استيراد ملف النمط
+
+function Footer() {
+  return (
+    <footer className={style.footer}>
+      <div className="container">
+        <div className="row">
+          <div className={style.footerLeftSide}>
+            <div className={style.logo}>
+              {/* <img src="assets/img/public/logo.svg" />*/} 
+              <a href="#">mangcoding Store</a>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis,
+              justo nec porttitor auctor, erat sapien faucibus lectus, vel tempor
+              dolor augue et lectus.
+            </p>
+            <div className={style.icons}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width={3}
+                height={7}
+                viewBox="0 0 3 7"
+                fill="none"
+              >
+                {/* رمز */}
+              </svg>
+              {/* باقي الرموز */}
+            </div>
+          </div>
+          <div className={style.footerRightSide}>
+            <div className={style.footerItem}>
+              <h2>Home</h2>
+              <nav>
+                <a href="#">Product</a>
+                <a href="#">Course</a>
+                <a href="#">About Us</a>
+                <a href="#">Log in</a>
+              </nav>
+            </div>
+            <div className={style.footerItem}>
+              <h2>Home</h2>
+              <nav>
+                <a href="#">Product</a>
+                <a href="#">Course</a>
+                <a href="#">About Us</a>
+                <a href="#">Log in</a>
+              </nav>
+            </div>
+            <div className={style.footerItem}>
+              <h2>Home</h2>
+              <nav>
+                <a href="#">Product</a>
+                <a href="#">Course</a>
+                <a href="#">About Us</a>
+                <a href="#">Log in</a>
+              </nav>
+            </div>
+            <div className={style.footerItem}>
+              <h2>Home</h2>
+              <nav>
+                <a href="#">Product</a>
+                <a href="#">Course</a>
+                <a href="#">About Us</a>
+                <a href="#">Log in</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
+
+export default Footer;
